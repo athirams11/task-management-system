@@ -1,0 +1,24 @@
+@import url("./common.css");
+
+.header-container {
+  background-color: #034ea2;
+  color: white;
+  height: 60px;
+  padding-left: 19px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.footer {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: #034ea2;
+}

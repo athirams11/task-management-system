@@ -1,0 +1,114 @@
+.flex {
+  display: flex;
+}
+
+.col {
+  flex-direction: column;
+}
+
+.center {
+  align-items: center;
+}
+
+.jcc {
+  justify-content: center;
+}
+
+.sb {
+  justify-content: space-between;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.g-1 {
+  gap: 1rem;
+}
+
+.mb-10 {
+  margin-top: 10px;
+}
+
+.mb-2 {
+  margin-top: 2rem;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.h-100vh {
+  height: 100vh;
+}
+
+.status {
+  border-radius: 50%;
+}
+
+.status.pending {
+  background: #d0d0d0;
+}
+
+.status.inprogress {
+  background: #ffb03c;
+}
+
+.status.completed {
+  background: #368a04;
+}
+
+input[type="text"],
+textarea {
+  padding: 12px;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 12px;
+  outline: none;
+  font-family: Jost;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  border-color: #034ea2;
+  box-shadow: 0 0 5px rgba(0, 86, 179, 0.2);
+}
+
+textarea {
+  min-height: 80px;
+  resize: none;
+}
+
+button {
+  width: 110px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px 0px 0px 0px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  box-shadow: 0px 4px 4px 0px #dddddd40;
+  font-family: Jost;
+  font-weight: 400;
+}
+
+button.secondary {
+  background-color: white;
+  color: #034ea2;
+  border: 1px solid #034ea2;
+}
+
+button.secondary:hover {
+  background-color: #e0e0e0;
+}
+
+button.primary {
+  background-color: #034ea2;
+  color: white;
+  border: none;
+}
+
+button.primary:hover {
+  background-color: #004494;
+}
